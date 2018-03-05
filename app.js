@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/ajax-request', (req, res) => {
-  web3.eth.getAccounts(function(errror, addresses) {
+  web3.eth.getAccounts(function(error, addresses) {
     if(error === null) res.send(JSON.stringify(addresses));
   });
 });

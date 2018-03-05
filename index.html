@@ -13,8 +13,8 @@
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
-            var name = JSON.parse(this.responseText)
-           document.getElementById("response").innerHTML = name.firstName + " " + name.secondName;
+            var accounts = JSON.parse(this.responseText);
+            document.getElementById("response").innerHTML = accounts[0];
           }
         };
         xhttp.open("GET", "ajax-request", true);
