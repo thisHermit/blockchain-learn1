@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-learn1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "file:/usr/local/lib/node_modules/express",
+    "web3": "^1.0.0-beta.30"
+  }
+}
