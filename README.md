@@ -16,10 +16,6 @@ These software are required to run this application on your system.
 * express (a node package)
 * yarn (optional, but i have used it extensively)
 
-```
-Give examples
-```
-
 ### Installing
 
 First install node using [this link](https://nodejs.org/en/).
